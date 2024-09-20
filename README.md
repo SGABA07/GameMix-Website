@@ -1,4 +1,4 @@
-# Login-Website-Localhost
+# Website GameMix
 
 - Patikan database yang dibuat memiliki nama "komentar" (tanpa tanda petik). jika tidak sama akan muncul error.
 - jika terjadi error seperti http 500. cek pada server internal (melalui telnet putty) dengan foler /var/log/apache2/error.log
