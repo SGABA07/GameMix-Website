@@ -9,9 +9,9 @@ $nama = $_POST["nama"];
 $kelas = $_POST["kelas"];
 $email = $_POST["email"];
 $gender = $_POST["gender"];
-$alamat = $_POST["alamat"];
+$komentar = $_POST["komentar"];
 
-$query = "INSERT INTO komentar (nama, kelas, email, gender, alamat) VALUES ('$nama', '$kelas', '$email', '$gender', '$alamat')";
+$query = "INSERT INTO komentar (nama, kelas, email, gender, komentar) VALUES ('$nama', '$kelas', '$email', '$gender', '$komentar')";
 
 if (mysqli_query($Koneksi, $query)) {
     echo "Data berhasil ditambahkan";
